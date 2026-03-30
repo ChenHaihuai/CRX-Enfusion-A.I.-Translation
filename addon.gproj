@@ -1,0 +1,89 @@
+GameProject {
+ ID "CRXEnfusionAITranslation"
+ GUID "68FAFAEBDEB4C6C7"
+ TITLE "CRX Enfusion A.I. Translation"
+ Dependencies {
+  "5F268647F8A1A1F4" "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{68FAFB0100000002}" {
+      StringTableSource "{25F1270E6A381102}Language/crx_eai_translation.st"
+      Languages {
+       LanguageDefinition "{68FAFB0100000010}" {
+        Code "en_us"
+        StringTableRuntime "{7CE1C6E8FE4D682F}Language/crx_eai_translation.en_us.conf"
+       }
+       LanguageDefinition "{68FAFB0100000011}" {
+        Code "fr_fr"
+        StringTableRuntime "{02057E56F6CCE032}Language/crx_eai_translation.fr_fr.conf"
+       }
+       LanguageDefinition "{68FAFB0100000012}" {
+        Code "it_it"
+        StringTableRuntime "{8219F1625BEE63CB}Language/crx_eai_translation.it_it.conf"
+       }
+       LanguageDefinition "{68FAFB0100000013}" {
+        Code "de_de"
+        StringTableRuntime "{22114CA394BE6D2E}Language/crx_eai_translation.de_de.conf"
+       }
+       LanguageDefinition "{68FAFB0100000014}" {
+        Code "es_es"
+        StringTableRuntime "{B9AD8B61104F0330}Language/crx_eai_translation.es_es.conf"
+       }
+       LanguageDefinition "{68FAFB0100000015}" {
+        Code "cs_cz"
+        StringTableRuntime "{F76F5690871D7C0E}Language/crx_eai_translation.cs_cz.conf"
+       }
+       LanguageDefinition "{68FAFB0100000016}" {
+        Code "pl_pl"
+        StringTableRuntime "{6ECDC2A6485DCC23}Language/crx_eai_translation.pl_pl.conf"
+       }
+       LanguageDefinition "{68FAFB0100000017}" {
+        Code "ru_ru"
+        StringTableRuntime "{EEFB4CC2EEDA63EF}Language/crx_eai_translation.ru_ru.conf"
+       }
+       LanguageDefinition "{68FAFB0100000018}" {
+        Code "ja_jp"
+        FontOverride "{D3E75BCBECEB273E}UI/Fonts/NotoSans/NotoSans-Enhanced-Regular-JP-KOR-SC-LAT.fnt"
+        LanguageGroup EastAsian
+        StringTableRuntime "{92024CF0659F5360}Language/crx_eai_translation.ja_jp.conf"
+       }
+       LanguageDefinition "{68FAFB0100000019}" {
+        Code "ko_kr"
+        FontOverride "{D3E75BCBECEB273E}UI/Fonts/NotoSans/NotoSans-Enhanced-Regular-JP-KOR-SC-LAT.fnt"
+        LanguageGroup EastAsian
+        StringTableRuntime "{32BC645CF6B2505F}Language/crx_eai_translation.ko_kr.conf"
+       }
+       LanguageDefinition "{68FAFB010000001A}" {
+        Code "pt_br"
+        StringTableRuntime "{BBBA586A73A30699}Language/crx_eai_translation.pt_br.conf"
+       }
+       LanguageDefinition "{68FAFB010000001B}" {
+        Code "zh_cn"
+        FontOverride "{D3E75BCBECEB273E}UI/Fonts/NotoSans/NotoSans-Enhanced-Regular-JP-KOR-SC-LAT.fnt"
+        LanguageGroup EastAsian
+        StringTableRuntime "{BE137709BB540DA7}Language/crx_eai_translation.zh_cn.conf"
+       }
+       LanguageDefinition "{68FAFB010000001C}" {
+        Code "uk_ua"
+        StringTableRuntime "{64A3193482F4DDBA}Language/crx_eai_translation.uk_ua.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
