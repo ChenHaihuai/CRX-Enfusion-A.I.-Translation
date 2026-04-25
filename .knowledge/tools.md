@@ -4,7 +4,7 @@
 **版本**: Arma Reforger Tools (Diag)
 **配置**: NET API 端口 5775, 需在 Options 中勾选 Enable NetAPI
 **注意**:
-- String Editor 无法处理大文件（>100 条目卡死）
+- String Editor 之前误判为大文件卡死，实际根因是未转义双引号；修复后可正常处理 230+ 条目
 - Override in addon 功能正常，Duplicate 会生成全新 GUID
 - Publish 功能会将项目目录所有文件打包进 data.pak，包括不应包含的脚本
 - Play 模式使用项目源文件目录，不需要 Publish 即可测试

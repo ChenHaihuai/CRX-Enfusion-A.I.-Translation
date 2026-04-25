@@ -76,6 +76,7 @@ foreach ($lang in $languages) {
 
 ## 当前统计
 - 属性数量: 77 个 CRX Editor Attribute
-- 翻译条目: 228 个（.st）
-- Override 引用: 273 个 #ID
+- 翻译条目: 230 个（.st）
+- Override 引用: 274 个 #ID
 - Name 条目: 78 个（全部有 [CRX] 前缀）
+- CRX 版本: 1.3.71

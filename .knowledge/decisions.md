@@ -14,12 +14,12 @@
 **决策**: 仅覆盖 `Configs/Editor/AttributeLists/Edit.conf`，这是 Game Master 属性面板的核心文件
 **后果**: 翻译模组保持精简，其他 CRX UI 文本暂不翻译
 
-### ADR-003: 直接生成 .conf 而非使用 String Editor Build
+### ADR-003: .conf 生成方式 — String Editor Build 为主，PowerShell 备用
 **日期**: 2026-03-29
-**状态**: accepted
-**上下文**: Workbench String Editor 无法打开包含 228 条目 x 13 语言的大型 .st 文件（UI 卡死）
-**决策**: 使用 PowerShell 脚本直接从 .st 文件解析生成 13 个语言 .conf 运行时文件
-**后果**: 绕过了 Workbench UI 限制，但需要手动维护生成脚本；格式与 String Editor Build 输出完全一致
+**状态**: superseded (2026-04-26 修正)
+**上下文**: 初期 String Editor 卡死被误判为大文件导致，实际根因是未转义双引号
+**决策**: 修复双引号后 String Editor 可正常打开 230+ 条目的 .st 文件并 Build Runtime Table。PowerShell 脚本保留为备用方案
+**后果**: 正常使用 Workbench 工作流（打开 .st → Build Runtime Table → Publish）
 
 ### ADR-004: Name 字段添加 [CRX] 前缀
 **日期**: 2026-03-30

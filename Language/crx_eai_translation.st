@@ -3877,5 +3877,39 @@ StringTable {
    Target_uk_ua "Натисніть, щоб виключити обрану групу ШІ з усіх перевизначень глобальних налаштувань."
    Status DEVELOPMENT_DONE
   }
+  CustomStringTableItem "{68FB0001A00000E5}" {
+   Id "CRX_EAI_T-Val_Low"
+   Target_en_us "Low"
+   Target_zh_cn "低"
+   Target_ja_jp "低"
+   Target_ko_kr "낮음"
+   Target_ru_ru "Низкий"
+   Target_fr_fr "Bas"
+   Target_de_de "Niedrig"
+   Target_es_es "Bajo"
+   Target_it_it "Basso"
+   Target_pl_pl "Niski"
+   Target_pt_br "Baixo"
+   Target_cs_cz "Nízký"
+   Target_uk_ua "Низький"
+   Status DEVELOPMENT_DONE
+  }
+  CustomStringTableItem "{68FB0001A00000E6}" {
+   Id "CRX_EAI_T-Fmt_Milliseconds"
+   Target_en_us "%1 milliseconds"
+   Target_zh_cn "%1 毫秒"
+   Target_ja_jp "%1 ミリ秒"
+   Target_ko_kr "%1 밀리초"
+   Target_ru_ru "%1 миллисекунд"
+   Target_fr_fr "%1 millisecondes"
+   Target_de_de "%1 Millisekunden"
+   Target_es_es "%1 milisegundos"
+   Target_it_it "%1 millisecondi"
+   Target_pl_pl "%1 milisekund"
+   Target_pt_br "%1 milissegundos"
+   Target_cs_cz "%1 milisekund"
+   Target_uk_ua "%1 мілісекунд"
+   Status DEVELOPMENT_DONE
+  }
  }
 }
